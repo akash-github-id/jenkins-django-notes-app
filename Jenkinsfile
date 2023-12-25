@@ -1,7 +1,5 @@
 pipeline {
-    agent{
-        label 'red'
-    } 
+    agent any
     
     stages{
         stage("Clone Code"){
